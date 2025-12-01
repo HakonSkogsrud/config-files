@@ -1,0 +1,37 @@
+{
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Night Owl Light",
+  "window.customTitleBarVisibility": "never",
+  "window.zoomLevel": 1,
+  "chat.editor.fontSize": 13,
+  "editor.fontSize": 13,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "terminal.integrated.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "Liberation Mono",
+  "terminal.integrated.fontFamily": "courier",
+  "git.enableSmartCommit": true,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "none",
+  "window.autoDetectColorScheme": true,
+  "editor.renderWhitespace": "none",
+  "hediet.vscode-drawio.resizeImages": null,
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "redhat.telemetry.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.formatOnSave": true,
+  "chat.instructionsFilesLocations": {
+    "README.md": true
+  },
+  "python.defaultInterpreterPath": "/bin/python"
+}
