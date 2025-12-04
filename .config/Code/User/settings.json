@@ -33,5 +33,6 @@
   "chat.instructionsFilesLocations": {
     "README.md": true
   },
-  "python.defaultInterpreterPath": "/bin/python"
+  "python.defaultInterpreterPath": "/bin/python",
+  "github.copilot.nextEditSuggestions.enabled": true
 }
