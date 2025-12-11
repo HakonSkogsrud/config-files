@@ -34,5 +34,6 @@
     "README.md": true
   },
   "python.defaultInterpreterPath": "/bin/python",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.preferredLightColorTheme": "Night Owl Light"
 }
