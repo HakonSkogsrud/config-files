@@ -1,7 +1,6 @@
 {
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Night Owl Light",
   "window.customTitleBarVisibility": "never",
   "window.zoomLevel": 1,
   "chat.editor.fontSize": 13,
@@ -13,7 +12,7 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "explorer.confirmDelete": false,
-  "editor.fontFamily": "Liberation Mono",
+  "editor.fontFamily": "Noto Sans Mono",
   "terminal.integrated.fontFamily": "courier",
   "git.enableSmartCommit": true,
   "terminal.integrated.defaultProfile.linux": "fish",
@@ -24,7 +23,6 @@
   "window.autoDetectColorScheme": true,
   "editor.renderWhitespace": "none",
   "hediet.vscode-drawio.resizeImages": null,
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "redhat.telemetry.enabled": false,
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -35,5 +33,48 @@
   },
   "python.defaultInterpreterPath": "/bin/python",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "workbench.preferredLightColorTheme": "Night Owl Light"
+  "workbench.preferredLightColorTheme": "Default Dark Modern",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+      //========================================================
+      // General Window & Layout
+      //========================================================
+      "titleBar.activeBackground": "#1B1B1B",
+      "titleBar.inactiveBackground": "#1B1B1B",
+      "activityBar.background": "#1B1B1B",
+      "activityBar.border": "#1B1B1B",
+      "statusBar.background": "#1B1B1B",
+      "statusBar.border": "#1B1B1B",
+      //========================================================
+      // Side Bar
+      //========================================================
+      "sideBar.background": "#1B1B1B",
+      "sideBar.border": "#1B1B1B",
+      "sideBarSectionHeader.background": "#1B1B1B",
+      //========================================================
+      // Editor & Tabs
+      //========================================================
+      "editor.background": "#1B1B1B",
+      "editorGroupHeader.tabsBackground": "#1B1B1B",
+      "tab.activeBackground": "#1B1B1B",
+      "tab.activeBorder": "#1B1B1B",
+      "tab.inactiveBackground": "#1B1B1B",
+      //========================================================
+      // Panel (Terminal, Output, Problems)
+      //========================================================
+      "panel.background": "#1B1B1B",
+      "terminal.background": "#1B1B1B",
+      //========================================================
+      // Lists & Selections
+      //========================================================
+      "list.activeSelectionBackground": "#1B1B1B",
+      "list.inactiveSelectionBackground": "#1B1B1B"
+    },
+  },
 }
