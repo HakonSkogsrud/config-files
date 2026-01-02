@@ -8,4 +8,4 @@
 	email = haaksk@gmail.com
 	name = Håkon Skogsrud
 [push]
-	autoSetupRemote = always
+	autoSetupRemote = true
