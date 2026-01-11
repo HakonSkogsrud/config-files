@@ -1,3 +1,9 @@
+source /usr/share/cachyos-fish-config/cachyos-config.fish
+
+function fish_greeting
+    # smth smth
+end
+
 # BEGIN ANSIBLE MANAGED BLOCK - ALIASES
 set -g VIRTUAL_ENV_DISABLE_PROMPT 1
 alias restart="source ~/.config/fish/config.fish"
