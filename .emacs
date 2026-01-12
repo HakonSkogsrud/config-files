@@ -11,6 +11,11 @@
     (package-install pkg)))
 
 
+(setq treesit-language-source-alist
+   '((bash "https://github.com/tree-sitter/tree-sitter-bash")
+     (python "https://github.com/tree-sitter/tree-sitter-python")
+     (yaml "https://github.com/ikatyang/tree-sitter-yaml")))
+
 (global-set-key (kbd "C-f") 'swiper)  ; Ctrl-F now opens a list of all matches
 
 ;; --- 2. GNOME Look & Feel ---
